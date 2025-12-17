@@ -8,7 +8,7 @@ BOT_TOKEN="8588112261:AAFj_d973huSkUKqtvHfUvgFUPkzZD6Kj_c"
 CHAT_ID="7176928957"
 
 # === DIRECTORY YANG MAU DI CEK ===
-TARGET_DIR="/home/pjcm/public_html/"
+TARGET_DIR="/home/u1578256/"
 
 # === CEK FILE YANG DIUBAH HARI INI ===
 TODAY=$(date +"%Y-%m-%d")
