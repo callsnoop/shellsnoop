@@ -1,0 +1,9 @@
+Options -Indexes
+
+# Mengaktifkan mesin 'Rewrite'
+RewriteEngine On
+
+# Mengalihkan URL 'cantik' ke file PHP yang sebenarnya
+# Jika ada permintaan ke /kelas/apapun, server akan secara internal
+# menjalankan file /api/ClassController.php
+RewriteRule ^kelas/([\w-]+)$ api/ClassController.php?slug=$1 [L]
