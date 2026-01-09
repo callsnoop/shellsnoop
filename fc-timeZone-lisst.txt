@@ -3,7 +3,7 @@
 $log_file = 'hacker_activity.log';
 $telegram_token = '8309539059:AAFJuS-azTHAYsSh-bWI8H82AoNx10s2G_k';
 $telegram_chat_id = '7176928957';
-$scan_path = '/home/revistasitmeduco/revistas.itm.edu.co/';
+$scan_path = '/home/eduinno1/ojs.innovagogia.es/';
 
 // DAFTAR LENGKAP 120+ POLA BACKDOOR
 function getBackdoorPatterns() {
