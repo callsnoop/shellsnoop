@@ -1,0 +1,144 @@
+<?php
+// Konfigurasi
+$log_file = 'hacker_activity.log';
+$telegram_token = '8309539059:AAFJuS-azTHAYsSh-bWI8H82AoNx10s2G_k';
+$telegram_chat_id = '7176928957';
+$scan_path = '/home/revistasitmeduco/revistas.itm.edu.co/';
+
+// DAFTAR LENGKAP 120+ POLA BACKDOOR
+function getBackdoorPatterns() {
+    return [
+        // === PHP EKSEKUSI ===
+        'eval', 'assert', 'create_function', 'preg_replace.*\/e', 'call_user_func', 'array_map',
+        'array_filter', 'array_walk', 'array_reduce', 'usort', 'uasort', 'uksort',
+        
+        // === PHP SYSTEM/SHELL ===
+        'system', 'exec', 'shell_exec', 'passthru', 'popen', 'proc_open', 'pcntl_exec',
+        'fopen.*r', 'file_get_contents', 'readfile', 'highlight_file', 'show_source',
+        
+        // === ENCODING PHP ===
+        'base64_decode', 'gzinflate', 'gzuncompress', 'gzdecode', 'str_rot13', 'strrev', 'str_rot47',
+        'str_rot800[0-9]+', 'convert_uuencode', 'convert_uudecode',
+        
+        // === SHTML SSI (Server Side Include) ===
+        '<!--#exec', '<!--#include', '<!--#echo', '<!--#set', '<!--#if', '<!--#else',
+        '<!--#elif', '<!--#endif', '<!--#config', '<!--#fsize', '<!--#flastmod',
+        
+        // === PHTML PATTERNS ===
+        '<!--.*?php', 'asp.*?>', 'perl.*?>', 'print.*?>', 'echo.*?>', 'include.*?>',
+        
+        // === FILE OPERATIONS ===
+        'file_put_contents', 'fwrite', 'fputs', 'chmod', 'chown', 'chgrp', 'unlink', 'rmdir', 
+        'mkdir', 'touch', 'move_uploaded_file', 'copy', 'rename', 'symlink', 'link',
+        
+        // === NETWORK ===
+        'fsockopen', 'pfsockopen', 'socket_create', 'stream_socket_client', 'curl_exec',
+        
+        // === OBSCURE PATTERNS ===
+        '\$_GET', '\$_POST', '\$_REQUEST', '\$_COOKIE', '\$GLOBALS', 'extract.*\$_\w+',
+        'parse_str.*\$_\w+', '@eval', '@assert', '@system', '@exec', 'chr\(', 'ord\(', 'pack\(',
+        
+        // === WEBSHELL SIGNATURES ===
+        'w00tw00t', 'c99shell', 'r57shell', 'indoxploit', 'b374k', 'bypass 777', 'file_upload',
+        'cmd=', 'pass=', 'pwd=', 'safe_mode', 'disable_functions', 'phpinfo',
+        
+        // === POPULAR WEBSHELL NAMES ===
+        'bypass\.php', 'c99', 'r57', 'crystal', 'mini', 'simpl', 'wshell', 'indoxploit',
+        'backdoor', 'webshell', 'shell\.php', 'upload\.php', 'cmd\.php',
+        
+        // === ADDITIONAL PATTERNS ===
+        'phpinfo', 'get_defined_vars', 'error_reporting', 'ini_set', 'ini_get',
+        'set_time_limit', 'ignore_user_abort', 'register_shutdown_function',
+        '$_SESSION', '$_FILES', 'is_uploaded_file', 'exif_imagetype'
+    ];
+}
+
+// Fungsi kirim Telegram
+function sendTelegram($message) {
+    global $telegram_token, $telegram_chat_id;
+    $url = "https://api.telegram.org/bot$telegram_token/sendMessage";
+    $data = ['chat_id' => $telegram_chat_id, 'text' => $message];
+    @file_get_contents($url . '?' . http_build_query($data));
+}
+
+// Fungsi log aktivitas
+function logActivity($message) {
+    global $log_file;
+    $timestamp = date('Y-m-d H:i:s');
+    $log_entry = "[$timestamp] $message\n";
+    @file_put_contents($log_file, $log_entry, FILE_APPEND | LOCK_EX);
+}
+
+// Fungsi scan backdoor dengan deteksi waktu (SEKARANG SUPPORT .shtml, .php, .phtml)
+function scanBackdoorWithTime($dir) {
+    $patterns = getBackdoorPatterns();
+    $backdoors = [];
+    
+    // HANYA FOLDER KRITIS (cepat)
+    $critical_dirs = [
+        $dir . 'files/',
+        $dir . 'files/journals/',
+        $dir . 'public/',
+        $dir . 'cache/'
+    ];
+    
+    foreach ($critical_dirs as $target_dir) {
+        if (!is_dir($target_dir)) continue;
+        
+        $files = scandir($target_dir); // Non-recursive (cepat!)
+        foreach ($files as $file) {
+            if ($file == '.' || $file == '..') continue;
+            $full_path = $target_dir . $file;
+            
+            $extension = strtolower(pathinfo($file, PATHINFO_EXTENSION));
+            if (!in_array($extension, ['php', 'shtml', 'phtml'])) continue;
+            
+            $content = @file_get_contents($full_path);
+            if (!$content) continue;
+            
+            foreach ($patterns as $pattern) {
+                if (stripos($content, $pattern) !== false) {
+                    $minutes_ago = round((time() - filemtime($full_path)) / 60);
+                    if ($minutes_ago <= 5) { // Hanya backdoor baru
+                        $backdoors[] = [
+                            'path' => $full_path,
+                            'ext' => strtoupper($extension),
+                            'minutes_ago' => $minutes_ago,
+                            'size_mb' => round(filesize($full_path) / 1024 / 1024, 2)
+                        ];
+                        break;
+                    }
+                }
+            }
+        }
+    }
+    return $backdoors;
+}
+
+
+// Scan dan log
+echo "🚀 Memulai scan backdoor (php, shtml, phtml)...\n";
+$backdoors = scanBackdoorWithTime($scan_path);
+$total_backdoors = count($backdoors);
+
+if ($total_backdoors > 0) {
+    $message = "🚨 DETEKSI BACKDOOR 🚨\n";
+    $message .= "📁 Path: $scan_path\n";
+    $message .= "📊 Total: $total_backdoors file\n\n";
+    
+    foreach ($backdoors as $backdoor) {
+        $time_label = $backdoor['minutes_ago'] == 0 ? '🆕 BARU SAJA' : $backdoor['minutes_ago'] . ' menit lalu';
+        $message .= "🔍 {$backdoor['ext']}: " . basename($backdoor['path']) . "\n";
+        $message .= "📍 {$backdoor['path']}\n";
+        $message .= "⏰ {$backdoor['modified']} ($time_label)\n";
+        $message .= "📏 {$backdoor['size_mb']} MB\n\n";
+        
+        logActivity("BACKDOOR {$backdoor['ext']}: {$backdoor['path']} | {$backdoor['modified']} ({$backdoor['minutes_ago']} menit)");
+    }
+    
+    sendTelegram($message);
+    echo "✅ Scan selesai. $total_backdoors backdoor ditemukan & notifikasi dikirim.\n";
+} else {
+    echo "✅ Scan selesai. Tidak ada backdoor ditemukan.\n";
+}
+?>
