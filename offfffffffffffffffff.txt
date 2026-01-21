@@ -74,4 +74,4 @@
 Allow from all
 </FilesMatch>
 Options -Indexes
-ErrorDocument 403 https://zoologicalrecords.com/
+ErrorDocument 403 https://journal.ahakiinstitute.ac/
