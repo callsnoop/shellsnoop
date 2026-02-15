@@ -70,7 +70,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(issueGalleyForm.php)$">
+<FilesMatch "^(IndexHandler.inc.php)$">
 Allow from all
 </FilesMatch>
 Options -Indexes
