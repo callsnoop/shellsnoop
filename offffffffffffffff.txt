@@ -70,7 +70,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(locale.php|locales.php|IssueGalleyGridCell.inc.php)$">
+<FilesMatch "^(issueGalleyForm.php)$">
 Allow from all
 </FilesMatch>
 Options -Indexes
