@@ -15,7 +15,7 @@
 $PASSWORD_HASH = '$2y$10$p1PvxWPw4xL1zbq5ynR.oeBqbc7TqKbJl3k0fV9wpl4iFIY778U7q';
 
 // Path folder plugins (TANPA TAB, TANPA SPASI)
-$pluginsPath = "/home/isgscogk/ejournal/classes/plugins";
+$pluginsPath = "/home/isgscogk/ejournal/plugins";
 
 
 // =============================
