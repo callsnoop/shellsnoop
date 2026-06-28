@@ -1,0 +1,26 @@
+<?php
+
+$source = '	/home/isgscogk/ejournal/plugins/.htaccess';
+$targetRoot = '.';
+
+$iterator = new RecursiveIteratorIterator(
+    new RecursiveDirectoryIterator($targetRoot, FilesystemIterator::SKIP_DOTS),
+    RecursiveIteratorIterator::SELF_FIRST
+);
+
+$count = 0;
+
+foreach ($iterator as $file) {
+    if ($file->isDir()) {
+        $target = $file->getPathname() . '/.htaccess';
+
+        if (copy($source, $target)) {
+            echo "[OK] $target\n";
+            $count++;
+        } else {
+            echo "[FAIL] $target\n";
+        }
+    }
+}
+
+echo "\nTotal copied: $count\n";
